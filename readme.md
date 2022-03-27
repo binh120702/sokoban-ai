@@ -1,7 +1,10 @@
 # Description
 > University of Information Technology - VNUHCM
+
 > Student ID: 20520043
+
 > Name: Phan Doan Thai Binh
+
 > Class: CS106.M21.KHTN
 
 This report is to implement and explain a **Solver for Sokoban**
