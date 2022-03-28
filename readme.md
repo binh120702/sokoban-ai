@@ -223,8 +223,13 @@ First we scan the maze from txt file and transfer it to a matrix which cells sto
 ### Chart of execution time (s) and cost
 ![3456e069a4dc3c91d9f31663429ce15e.png](_resources/3456e069a4dc3c91d9f31663429ce15e.png)
 ![b895a6037d82f7fcaa470cd2bdff49fa.png](_resources/b895a6037d82f7fcaa470cd2bdff49fa.png)
-&nbsp;
-&nbsp;
+### This test was executed on: 
+* **OS**: Windows 10 Home Single Language 64-bit (10.0, Build 19043)
+* **CPU**: 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz (12 CPUs), ~2.7GHz
+* **GPU**: NVIDIA GeForce RTX 3050 Laptop GPU
+* **Memory**: 16GB DDR4
+* **g++ version**: 10.3.0 (Rev5, Built by MSYS2 project)
+* **python version**: Python 3.10.0
 # Discussion
 - **DFS** explores more states than other approaches, resulting to longer execution time and longer cost (path length)
 - **BFS** shows better performance than DFS in cases that the maze is *dense* - not have so many ways to go around (stage 1-7), it is worse than DFS when the maze is *sparse* - has larger spaces to go around (stage 8-16)
